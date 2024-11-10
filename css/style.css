@@ -23,7 +23,7 @@
 .header-profile__icon {
 	width: 48px;
 	position: absolute;
-	right: 380px;
+	right: 10%;
 	border-radius: 24px;
 }
 
@@ -105,14 +105,13 @@
 	padding-bottom: 32px;
 	bottom: -50px;
 	width: 140px;
-	left: 910px;
+	left: 33%;
 	border-radius: 10px;
 	border: none;
 	transition: 0.2s;
-	margin-bottom: -35px;
+	margin-bottom: -40%;
 	font-size: 17px;
 	font-weight: 700;
-	margin-left: 16px;
 }
 
 .account-data__button:hover {
@@ -148,7 +147,7 @@
 }
 
 .profile__header-mail {
-	margin-left: 150px;
+	margin-left: 45%;
 	margin-top: 10px;
 }
 
@@ -157,7 +156,7 @@
 	font-size: 19px;
 
 	margin-top: 40px;
-	margin-left: 900px;
+	margin-left: 30%;
 }
 
 .back__button:hover {
@@ -171,7 +170,7 @@
 
 @media (max-width: 768px) {
      .header-profile{
-		width: 60%;
+		width: 80%;
 	 }
 
 	 .back{
@@ -179,11 +178,11 @@
 	 }
 	
 	.profile{
-		width: 60%;
+		width: 80%;
 	 }
 
 	 .account-data{
-		width: 60%;
+		width: 80%;
 	 }
 
 	 .account-data__title{
@@ -191,8 +190,8 @@
 	 }
 
 	 .account-data__input{
-		margin-right: 60%;
-		width: 30%;
+		margin-right: 52%;
+		width: 38%;
 	 }
 
 	 .account-data__AVATARKA{
