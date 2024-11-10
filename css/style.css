@@ -1,0 +1,201 @@
+.account-body {
+	width: 100%;
+	font-family: 'Nunito';
+	margin-top: 50px;
+}
+
+.header-profile {
+	width: 80%;
+	height: 53px;
+	margin: auto;
+	background: #f5f5f5;
+	padding-top: 10px;
+	padding-left: 18px;
+	border-radius: 30px;
+}
+
+.header-profile__a {
+	font-size: 40px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.header-profile__icon {
+	width: 48px;
+	position: absolute;
+	right: 380px;
+	border-radius: 24px;
+}
+
+.back {
+	width: 1161px;
+	height: 40px;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.profile {
+	width: 80%;
+	height: 140px;
+	margin: auto;
+	margin-top: 45px;
+	background: #f5f5f5;
+	border-radius: 24px;
+}
+
+.profile__header-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: 20px;
+	margin-top: 20px;
+	transition: 0.15s;
+}
+
+.inputs_flex {
+	margin: auto;
+	position: relative;
+	width: 544px;
+	height: 572px;
+	margin-right: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	outline: none;
+}
+
+.account-data {
+	width: 80%;
+	height: 672px;
+	margin: auto;
+	background: #f5f5f5;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+
+.account-data__title {
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 40px;
+	font-size: 26px;
+	font-weight: 800;
+}
+
+.account-data__input {
+	width: 50%;
+	height: 42px;
+	border: none;
+	text-decoration: none;
+	color: grey;
+	padding-left: 15px;
+	border-radius: 12px;
+	outline: none;
+}
+
+.account-data__button {
+	position: absolute;
+	background: rgb(61, 59, 255);
+	height: 20px;
+	color: #f5f5f5;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 18px;
+	padding-bottom: 32px;
+	bottom: -50px;
+	width: 140px;
+	left: 910px;
+	border-radius: 10px;
+	border: none;
+	transition: 0.2s;
+	margin-bottom: -35px;
+	font-size: 17px;
+	font-weight: 700;
+	margin-left: 16px;
+}
+
+.account-data__button:hover {
+	background: #000000;
+}
+
+.account-data__AVATARKA {
+	width: 36px;
+	margin-left: 65px;
+	margin-top: 34px;
+	position: absolute;
+}
+
+.back__button {
+	border: none;
+	width: 44px;
+	height: 44px;
+	border-radius: 22px;
+	font-size: 28px;
+	margin-top: 7px;
+	transition: 0.3s;
+}
+
+.NAZAD {
+	margin-left: 12px;
+}
+
+.profile__header-name {
+	margin-left: 150px;
+	margin-top: -85px;
+	font-weight: 800;
+	font-size: 26px;
+}
+
+.profile__header-mail {
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.delete-acc {
+	text-decoration: underline;
+	font-size: 19px;
+
+	margin-top: 40px;
+	margin-left: 900px;
+}
+
+.back__button:hover {
+	background: #000000;
+	color: #f5f5f5;
+}
+
+.profile__header-icon:hover{
+    filter: brightness(74%)
+}
+
+@media (max-width: 768px) {
+     .header-profile{
+		width: 60%;
+	 }
+
+	 .back{
+		margin-left: 20%;
+	 }
+	
+	.profile{
+		width: 60%;
+	 }
+
+	 .account-data{
+		width: 60%;
+	 }
+
+	 .account-data__title{
+		display: none;
+	 }
+
+	 .account-data__input{
+		margin-right: 60%;
+		width: 30%;
+	 }
+
+	 .account-data__AVATARKA{
+		display: none;
+	 }
+}
